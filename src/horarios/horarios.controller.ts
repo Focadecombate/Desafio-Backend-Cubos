@@ -1,26 +1,30 @@
-import { Controller, Get, Post, Delete, Param } from '@nestjs/common';
-import { HorariosService } from './horarios.service';
+import { Controller, Get, Post, Delete, Param, Body } from '@nestjs/common';
+import { HorariosService, Horarios } from './horarios.service';
+import { CriaHorarioDto } from './CriaHorario-dto';
+import { DisponivelDto } from './Disponivel-dto';
 
 @Controller('horarios')
 export class HorariosController {
   constructor(private horariosService: HorariosService) {}
   @Get()
-  ListaHorarios() {
-    return this.horariosService.listaHorarios();
+  async ListaHorarios(): Promise<Horarios[]> {
+    return await this.horariosService.listaHorarios();
   }
 
-  @Get('/disponiveis')
-  ListaDisponiveis() {
-    return this.horariosService.listaDisponiveis();
+  @Post('/disponiveis')
+  async ListaDisponiveis(@Body() disponivelDto: DisponivelDto) {
+    return this.horariosService.listaDisponiveis(disponivelDto);
   }
 
   @Post()
-  CriaHorario() {
-    return this.horariosService.criaHorarios();
+  async CriaHorario(
+    @Body() criaHorarioDto: CriaHorarioDto,
+  ): Promise<Horarios[]> {
+    return await this.horariosService.criaHorarios(criaHorarioDto);
   }
 
-  @Delete()
-  ApagaHorario(@Param('dia') Dia:string) {
-    return this.horariosService.apagaHorarios();
+  @Delete(':id')
+  async ApagaHorario(@Param('id') id: string) {
+    return await this.horariosService.apagaHorarios(id);
   }
 }

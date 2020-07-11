@@ -1,0 +1,68 @@
+[
+  {
+    "id": "0ae3544f-ab9f-42ac-8c7d-bf541b874bc8",
+    "intervalos": [
+      {
+        "start": "10:40",
+        "end": "20:30"
+      }
+    ],
+    "tipo": "Dia",
+    "Data": "25-12-2020"
+  },
+  {
+    "id": "093be937-b1f1-450b-b91b-5a11b25506e3",
+    "intervalos": [
+      {
+        "start": "10:40",
+        "end": "20:30"
+      }
+    ],
+    "tipo": "Dia",
+    "Data": "24-12-2020"
+  },
+  {
+    "id": "75fb0252-899c-4c41-baf0-8ccf41bb8da2",
+    "intervalos": [
+      {
+        "start": "10:40",
+        "end": "20:30"
+      }
+    ],
+    "tipo": "Dia",
+    "Data": "23-12-2020"
+  },
+  {
+    "id": "a17a07a2-899f-47dd-aff4-814438b655f2",
+    "intervalos": [
+      {
+        "start": "10:40",
+        "end": "20:30"
+      }
+    ],
+    "tipo": "Dia",
+    "Data": "19-12-2020"
+  },
+  {
+    "id": "610651fc-2686-4015-95ca-772cd3a3fd78",
+    "intervalos": [
+      {
+        "start": "10:40",
+        "end": "20:30"
+      }
+    ],
+    "tipo": "Dia",
+    "Data": "19-11-2020"
+  },
+  {
+    "id": "e2bb1339-d926-481b-8321-fea5ab330758",
+    "intervalos": [
+      {
+        "start": "10:40",
+        "end": "20:30"
+      }
+    ],
+    "tipo": "Dia",
+    "Data": "19-12-2020"
+  }
+]
