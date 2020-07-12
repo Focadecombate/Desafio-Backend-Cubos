@@ -1,0 +1,876 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>desafio-cubos documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">desafio-cubos documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li>HorariosService</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/horarios/horarios.service.ts</code>
+        </p>
+
+            <p class="comment">
+                <h3>Description</h3>
+            </p>
+            <p class="comment">
+                <p>Serviços das Rotas /horarios </p>
+
+            </p>
+
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#caminho">caminho</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#logger">logger</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#apagaHorarios">apagaHorarios</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#criaHorarios">criaHorarios</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                    <span class="modifier">Async</span>
+                                <a href="#InitDb">InitDb</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#listaDisponiveis">listaDisponiveis</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#listaHorarios">listaHorarios</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                    <span class="modifier">Async</span>
+                                <a href="#Save">Save</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+
+            <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="apagaHorarios"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Async</span>
+                            apagaHorarios
+                        </b>
+                        <a href="#apagaHorarios"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>apagaHorarios(id)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="69"
+                            class="link-to-prism">src/horarios/horarios.service.ts:69</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Apaga a regra do Horário com o id passado pelos Params</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;void&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="criaHorarios"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Async</span>
+                            criaHorarios
+                        </b>
+                        <a href="#criaHorarios"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>criaHorarios(criaHorarioDto: <a href="../classes/CriaHorarioDto.html">CriaHorarioDto</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="83"
+                            class="link-to-prism">src/horarios/horarios.service.ts:83</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Cria regra de Horarios com o body da requisição </p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>criaHorarioDto</td>
+                                    <td>
+                                                <code><a href="../classes/CriaHorarioDto.html" target="_self" >CriaHorarioDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/Horarios.html" target="_self" >Promise&lt;Horarios[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="InitDb"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            <span class="modifier">Async</span>
+                            InitDb
+                        </b>
+                        <a href="#InitDb"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>InitDb()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="41"
+                            class="link-to-prism">src/horarios/horarios.service.ts:41</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Inicia o banco de dados Json e retorna os dados </p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/Horarios.html" target="_self" >Promise&lt;Horarios[]&gt;</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="listaDisponiveis"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Async</span>
+                            listaDisponiveis
+                        </b>
+                        <a href="#listaDisponiveis"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>listaDisponiveis(disponivelDto: <a href="../classes/DisponivelDto.html">DisponivelDto</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="167"
+                            class="link-to-prism">src/horarios/horarios.service.ts:167</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Retorna as regras que estão dentro do periodo de tempo </p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>disponivelDto</td>
+                                    <td>
+                                                <code><a href="../classes/DisponivelDto.html" target="_self" >DisponivelDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/Horarios.html" target="_self" >Promise&lt;Horarios[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="listaHorarios"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Async</span>
+                            listaHorarios
+                        </b>
+                        <a href="#listaHorarios"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>listaHorarios()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="154"
+                            class="link-to-prism">src/horarios/horarios.service.ts:154</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Puxa as regras do db </p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/Horarios.html" target="_self" >Promise&lt;Horarios[]&gt;</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="Save"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            <span class="modifier">Async</span>
+                            Save
+                        </b>
+                        <a href="#Save"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>Save(data: <a href="../interfaces/Horarios.html">Horarios[]</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="58"
+                            class="link-to-prism">src/horarios/horarios.service.ts:58</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Salva no banco de dados </p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="../interfaces/Horarios.html" target="_self" >Horarios[]</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;void&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+            <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="caminho"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            caminho</b>
+                            <a href="#caminho"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>join(__dirname, &#x27;../../&#x27;)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/horarios/horarios.service.ts:38</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>caminho onde o arquivo database.json será criado </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="logger"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            logger</b>
+                            <a href="#logger"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Logger(&#x27;HorarioService&#x27;)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/horarios/horarios.service.ts:36</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Cria um Logger </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Injectable, NotFoundException, Logger } from &#x27;@nestjs/common&#x27;;
+import { promises } from &#x27;fs&#x27;;
+import { join } from &#x27;path&#x27;;
+import { CriaHorarioDto, Tipo, DiaSemana } from &#x27;./CriaHorario-dto&#x27;;
+import { DisponivelDto } from &#x27;./Disponivel-dto&#x27;;
+import { uuid } from &#x27;uuidv4&#x27;;
+import * as moment from &#x27;moment&#x27;;
+
+/** Interface das regras de Horarios */
+export interface Horarios {
+  /** Data
+   *
+   * Podendo ser uma data no formato string
+   *
+   * Uma Array de dias da Semana
+   *
+   * Ou &quot;Todos os dias&quot;
+   *  */
+  Data?: string | DiaSemana[] | &#x27;Todos os Dias&#x27;;
+  /** Array de intervalos */
+  intervalos: [
+    {
+      start: string;
+      end: string;
+    },
+  ];
+  /** Id que será gerado ao salvar o objeto pelo uuid */
+  id?: string;
+  /** O tipo da regra */
+  tipo: Tipo;
+}
+/** Serviços das Rotas /horarios */
+@Injectable()
+export class HorariosService {
+  /** Cria um Logger */
+  private logger &#x3D; new Logger(&#x27;HorarioService&#x27;);
+  /** caminho onde o arquivo database.json será criado */
+  private caminho &#x3D; join(__dirname, &#x27;../../&#x27;);
+
+  /** Inicia o banco de dados Json e retorna os dados */
+  private async InitDb(): Promise&lt;Horarios[]&gt; {
+    const directory &#x3D; await promises.readdir(this.caminho);
+    /** Checa se o db.json já foi criado caso contrario cria */
+
+    if (!directory.includes(&#x27;database.json&#x27;)) {
+      this.logger.log(&#x27;Arquivo database.json não encontrado, Criando um novo!&#x27;);
+      await promises.writeFile(&#x27;database.json&#x27;, &#x27;[]&#x27;, &#x27;utf8&#x27;);
+    }
+    /** Agora que garantimos que ele existe é lido e retornado como um objeto */
+
+    let database &#x3D; await promises.readFile(&#x27;database.json&#x27;, &#x27;utf-8&#x27;);
+
+    this.logger.log(&#x27;Database Lida&#x27;);
+    const data: Horarios[] &#x3D; JSON.parse(database);
+    return data;
+  }
+  /** Salva no banco de dados */
+  private async Save(data: Horarios[]): Promise&lt;void&gt; {
+    let save &#x3D; JSON.stringify(data, null, 2);
+    await promises.writeFile(&#x27;database.json&#x27;, save, &#x27;utf8&#x27;).catch(e &#x3D;&gt; {
+      this.logger.error(e);
+      throw new Error(&#x27;Não foi Possivel Salvar&#x27;);
+    });
+    this.logger.log(&#x27;Database Salva!&#x27;);
+  }
+  /**
+   * Apaga a regra do Horário com o id passado pelos Params
+   */
+  async apagaHorarios(id): Promise&lt;void&gt; {
+    try {
+      /** Recebe o conteudo do arquivo e filtra o id se o id não for encontrado retorna NotFound */
+      let data &#x3D; await this.InitDb();
+      data &#x3D; data.filter(value &#x3D;&gt; {
+        return value.id !&#x3D;&#x3D; id;
+      });
+      await this.Save(data);
+    } catch (error) {
+      this.logger.error(error);
+      throw new NotFoundException(error);
+    }
+  }
+  /** Cria regra de Horarios com o body da requisição */
+  async criaHorarios(criaHorarioDto: CriaHorarioDto): Promise&lt;Horarios[]&gt; {
+    try {
+      const regras &#x3D; await this.InitDb();
+      /** Objeto que vai ser salvo no DB */
+      const regra: Horarios &#x3D; {
+        id: uuid(),
+        intervalos: criaHorarioDto.intervalos,
+        tipo: criaHorarioDto.tipo,
+      };
+      /** Checa o Tipo que foi Selecionado */
+      switch (criaHorarioDto.tipo) {
+        case &#x27;Dia&#x27;:
+          regra.Data &#x3D; moment(criaHorarioDto.data, &#x27;DD/MM/YYYY&#x27;).format(
+            &#x27;DD-MM-YYYY&#x27;,
+          );
+          break;
+        case &#x27;Semana&#x27;:
+          if (typeof criaHorarioDto.data !&#x3D;&#x3D; &#x27;string&#x27;) {
+            const temp &#x3D; criaHorarioDto.data;
+            regra.Data &#x3D; temp;
+          }
+          break;
+        case &#x27;Todos&#x27;:
+          regra.Data &#x3D; &#x27;Todos os Dias&#x27;;
+          break;
+        default:
+          break;
+      }
+      /** Checa A maneira que o intervalo foi escrito */
+      criaHorarioDto.intervalos.map(intervalo &#x3D;&gt; {
+        /**  Garante que não é numero e se for tranforma para string */
+        if (
+          typeof intervalo.start &#x3D;&#x3D;&#x3D; &#x27;number&#x27; ||
+          typeof intervalo.end &#x3D;&#x3D;&#x3D; &#x27;number&#x27;
+        ) {
+          intervalo.start &#x3D; &#x60;${intervalo.start}&#x60;;
+          intervalo.end &#x3D; &#x60;${intervalo.end}&#x60;;
+        }
+        /** Formata caso o usuario envie a hora como &#x27;16&#x27; ou &#x27;2&#x27; */
+        switch (intervalo.start.length) {
+          case 2:
+            intervalo.start &#x3D; &#x60;${intervalo.start}:00&#x60;;
+            break;
+          case 1:
+            intervalo.start &#x3D; &#x60;0${intervalo.start}:00&#x60;;
+            break;
+
+          default:
+            break;
+        }
+        switch (intervalo.end.length) {
+          case 2:
+            intervalo.end &#x3D; &#x60;${intervalo.end}:00&#x60;;
+            break;
+          case 1:
+            intervalo.end &#x3D; &#x60;0${intervalo.end}:00&#x60;;
+            break;
+
+          default:
+            break;
+        }
+      });
+      /** Salva no db  */
+      const save &#x3D; regras.concat(regra);
+      await this.Save(save);
+      return save;
+    } catch (error) {
+      this.logger.error(error);
+    }
+  }
+  /** Puxa as regras do db */
+  async listaHorarios(): Promise&lt;Horarios[]&gt; {
+    try {
+      const regras &#x3D; await this.InitDb();
+      if (regras.length &lt;&#x3D; 1) {
+        throw new Error(&#x27;Database Vazio&#x27;);
+      }
+      return regras;
+    } catch (error) {
+      this.logger.error(error);
+      throw new NotFoundException(error);
+    }
+  }
+  /**  Retorna as regras que estão dentro do periodo de tempo */
+  async listaDisponiveis(disponivelDto: DisponivelDto): Promise&lt;Horarios[]&gt; {
+    try {
+      const regras &#x3D; await this.InitDb();
+
+      /** Checa se as Datas São iguais */
+      if (disponivelDto.startDate &#x3D;&#x3D;&#x3D; disponivelDto.endDate) {
+        return regras.filter(horario &#x3D;&gt; {
+          return horario.Data &#x3D;&#x3D;&#x3D; disponivelDto.startDate;
+        });
+      }
+
+      /** Cria os objetos moment que possibilitam uma melhor comparação entre datas */
+      const startDate &#x3D; moment(disponivelDto.startDate, &#x27;DD-MM-YYYY&#x27;);
+      const endDate &#x3D; moment(disponivelDto.endDate, &#x27;DD-MM-YYYY&#x27;);
+
+      /** Preenche uma array com as datas do periodo recebido */
+      let dates: string[] &#x3D; [];
+      let helper &#x3D; startDate.clone();
+      while (helper.isSameOrBefore(endDate)) {
+        dates.push(helper.format(&#x27;DD-MM-YYYY&#x27;));
+        helper.add(1, &#x27;day&#x27;);
+      }
+
+      /** Separa as regras que batem com o periodo e retornam essa array */
+      var resultado: Horarios[] &#x3D; [];
+      for (const date of dates) {
+        regras.forEach(regra &#x3D;&gt; {
+          if (regra.Data &#x3D;&#x3D;&#x3D; date) {
+            resultado.push(regra);
+          }
+        });
+      }
+      return resultado;
+    } catch (error) {
+      this.logger.error(error);
+      throw new Error(error);
+    }
+  }
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = 'HorariosService.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
