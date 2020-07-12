@@ -1,8 +1,8 @@
 {
   "name": "desafio-cubos",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Resposta ao desafio da Cubos",
+  "author": "Gustavo Santos",
   "private": true,
   "license": "mit",
   "scripts": {
@@ -14,11 +14,7 @@
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:cov": "jest --coverage",
-    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "documentation": "npx compodoc -p tsconfig.json -s"
   },
   "dependencies": {
     "@nestjs/common": "^7.0.0",
@@ -33,6 +29,7 @@
     "uuidv4": "^6.1.1"
   },
   "devDependencies": {
+    "@compodoc/compodoc": "^1.1.11",
     "@nestjs/cli": "^7.0.0",
     "@nestjs/schematics": "^7.0.0",
     "@nestjs/testing": "^7.0.0",
@@ -53,19 +50,5 @@
     "ts-node": "^8.6.2",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^3.7.4"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts"
-    ],
-    "rootDir": "src",
-    "testRegex": ".spec.ts$",
-    "transform": {
-      "^.+\\.(t|j)s$": "ts-jest"
-    },
-    "coverageDirectory": "../coverage",
-    "testEnvironment": "node"
   }
 }
