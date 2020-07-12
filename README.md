@@ -2,6 +2,9 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
 
+Documentação das Requisições da Api
+https://documenter.getpostman.com/view/12019345/T17NZjFH?version=latest
+
 
 ## Description
 
